@@ -11,7 +11,7 @@
         <div>
             <img src="..\assets\di45bXx4T.jpg" style="width:200px" alt="icon">
         </div>
-        <div class="temp1" v-if="Information.main">
+        <div class="temp" v-if="Information.main">
             {{FormattedTemp}}&#x2103;
         </div>
        <div class="location" v-if="Information.name">
